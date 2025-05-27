@@ -1,0 +1,38 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    border-style: inset;
+    border-color: goldenrod;
+    border-width: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border-left: black 10px solid;
+    padding-right: 1px;
+    margin: 20px;
+}
+
+h2 {
+    color: darkblue;
+    text-align: left;
+}
+
+p {
+    color: black;
+    line-height: 1.5;
+}
+
+.b1 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding: -40px;
+    font-size: 20pt;
+    text-decoration: red double underline;
+    font-family: 'consolas', Helvetica, sans-serif;
+}
