@@ -1,0 +1,47 @@
+body {
+    /* background: linear-gradient(black, cyan); */
+    /* background-color: lightgray; */
+    background-image: url('istockphoto-2186695890-1024x1024.jpg');
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    border-style: inset;
+    border-color: goldenrod;
+    border-width: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+h2 {
+    color: black;
+    text-align: left;
+    width: 15%;
+    border: 10px solid black;
+    border-style: solid;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: black;
+    line-height: 1.5;
+}
+
+.b1 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding: -40px;
+    font-size: 20pt;
+    text-decoration: red double underline;
+    font-family: 'consolas', Helvetica, sans-serif;
+}
