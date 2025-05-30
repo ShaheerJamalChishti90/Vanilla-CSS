@@ -1,5 +1,10 @@
 body {
-    background-color: lightgray;
+    /* background: linear-gradient(black, cyan); */
+    /* background-color: lightgray; */
+    background-image: url('istockphoto-2186695890-1024x1024.jpg');
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center;
 }
 
 h1 {
@@ -12,14 +17,18 @@ h1 {
     border-width: 10px;
     border-radius: 10px;
     padding: 10px;
-    border-left: black 10px solid;
-    padding-right: 1px;
     margin: 20px;
 }
 
 h2 {
-    color: darkblue;
+    color: black;
     text-align: left;
+    width: 15%;
+    border: 10px solid black;
+    border-style: solid;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
