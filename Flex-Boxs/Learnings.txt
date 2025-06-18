@@ -42,3 +42,9 @@ we can combine the flex shrink and flex wrap property using the media query
         flex-wrap: wrap;
     }
 }
+
+AlignSelf
+.box1{
+    align-self: flex-start/end
+    margin-right: auto
+}
