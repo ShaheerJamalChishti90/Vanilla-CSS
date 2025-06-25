@@ -1,16 +1,11 @@
-/* 
-  Project: CSS Glowing Button
-  Created: Sunday, 06 March 2022
-  Author: Jamshid Elmi 
-  Tutorial: https://youtu.be/b_8fHNIHFk4
-*/
 html, body {
+  min-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #161616;
   overflow: hidden;
-  /* transform: scale(1.5); */
+  transform: scale(1.5);
 }
 
 /* button */
@@ -66,7 +61,7 @@ html, body {
 
 /* hover */
 .btn:hover::before {
-  opacity: 1;
+  opacity: 1000;
 }
 
 .btn:active:after {
